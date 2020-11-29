@@ -1,0 +1,37 @@
+Approaching Any Machine Learning Project by Abhishek Thakur
+
+Arranging Machine Learning Project:
+
+	- Create new folder for every project
+
+	- Folder Structure:
+		- Input
+			- train.csv
+			- test.csv
+			- embeddings (nlp)
+			- images (classification)
+		- src
+			- create_folds.py
+			- train.py
+			- inference.py
+			- models.py
+			- config.py
+			- model_dispatcher.py
+		- models
+			- model_ref.bin
+			- model_et.bin
+		- notebooks
+			- exploration.ipynb
+			- check_data.ipynb
+		- README.md
+		- LICENSE
+
+	- Decide the metric (follow the metrics chapter)
+
+	- Create file create_folds.py inside the src folder (this file when ran will create the dataset csv file with new columns "kfold")
+
+	- Create a basic model in train.py in src
+
+	- Create file config.py in src to hold config values
+
+	- 
